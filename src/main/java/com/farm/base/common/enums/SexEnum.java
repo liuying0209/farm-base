@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonValue;
 public enum SexEnum  implements CommonEnum{
 
 
-    MAN(0, "男"), WOMAN(1, "女");
+    NONE(0, "未知"), MAN(1, "男"),WOMAN(2, "女");
     final int code;
     final String msg;
 

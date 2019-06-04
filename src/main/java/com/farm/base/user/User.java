@@ -108,6 +108,7 @@ public class User implements Serializable {
 
     private Date updateTime;
 
+
     public User() {
     }
 
@@ -296,4 +297,5 @@ public class User implements Serializable {
     public void setDefaultFarmId(Long defaultFarmId) {
         this.defaultFarmId = defaultFarmId;
     }
+
 }
